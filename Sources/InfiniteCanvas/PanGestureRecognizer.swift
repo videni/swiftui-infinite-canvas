@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct PanGestureRecognizer: ViewModifier {
     let controller: InfiniteCanvasController

@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 public class InfiniteCanvasController: ObservableObject {
     @Published public private(set) var contentOffset: CGPoint = .zero
@@ -7,6 +8,7 @@ public class InfiniteCanvasController: ObservableObject {
     public var minimumMagnification: CGFloat = 0.05
     public var maximumMagnification: CGFloat = 3
 
+    
     private var frameSize: CGSize = .zero
     
     private var lastUpdate: Int = .zero

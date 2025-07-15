@@ -1,5 +1,5 @@
-import AppKit
 import SwiftUI
+import UIKit
 
 public struct InfiniteCanvas<Content>: View where Content : View {
     private let controller: InfiniteCanvasController
