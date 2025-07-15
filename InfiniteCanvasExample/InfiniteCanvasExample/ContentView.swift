@@ -106,6 +106,7 @@ struct Canvas: View {
                     }
             }
         }
+        .border(Color.red, width: 2)
     }
 }
 

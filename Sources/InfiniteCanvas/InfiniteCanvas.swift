@@ -16,6 +16,6 @@ public struct InfiniteCanvas<Content>: View where Content : View {
                 content()
             }
         }
-        .modifier(PanGestureRecognizer(controller: controller))
+//        .modifier(PanGestureRecognizer(controller: controller))
     }
 }

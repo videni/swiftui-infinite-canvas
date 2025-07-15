@@ -22,6 +22,8 @@ public class InfiniteCanvasController: ObservableObject {
     
     public func setFrameSize(size newSize: CGSize) {
         self.frameSize = newSize
+
+        print("frameSize=\(frameSize)")
         recomputeVisibleRect(self.contentOffset.x, self.contentOffset.y)
     }
     
